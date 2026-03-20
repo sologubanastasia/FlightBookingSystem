@@ -37,7 +37,7 @@ Libraries: AutoMapper, Identity + JWT Authentication
 
 Documentation: Swagger (OpenAPI)
 
-🚀 Інструкція із запуску
+Інструкція із запуску
 1. Налаштування бази даних
 У файлі appsettings.json проєкту FlightApp.WebApi змініть рядок підключення на ваш локальний:
 
