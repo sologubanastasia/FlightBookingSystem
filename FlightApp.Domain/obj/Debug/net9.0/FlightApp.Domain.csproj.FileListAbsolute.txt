@@ -1,0 +1,12 @@
+D:\4course\практика\FlightService\FlightApp\FlightApp.Domain\bin\Debug\net9.0\FlightApp.Domain.deps.json
+D:\4course\практика\FlightService\FlightApp\FlightApp.Domain\bin\Debug\net9.0\FlightApp.Domain.dll
+D:\4course\практика\FlightService\FlightApp\FlightApp.Domain\bin\Debug\net9.0\FlightApp.Domain.pdb
+D:\4course\практика\FlightService\FlightApp\FlightApp.Domain\obj\Debug\net9.0\FlightApp.Domain.csproj.AssemblyReference.cache
+D:\4course\практика\FlightService\FlightApp\FlightApp.Domain\obj\Debug\net9.0\FlightApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\4course\практика\FlightService\FlightApp\FlightApp.Domain\obj\Debug\net9.0\FlightApp.Domain.AssemblyInfoInputs.cache
+D:\4course\практика\FlightService\FlightApp\FlightApp.Domain\obj\Debug\net9.0\FlightApp.Domain.AssemblyInfo.cs
+D:\4course\практика\FlightService\FlightApp\FlightApp.Domain\obj\Debug\net9.0\FlightApp.Domain.csproj.CoreCompileInputs.cache
+D:\4course\практика\FlightService\FlightApp\FlightApp.Domain\obj\Debug\net9.0\FlightApp.Domain.dll
+D:\4course\практика\FlightService\FlightApp\FlightApp.Domain\obj\Debug\net9.0\refint\FlightApp.Domain.dll
+D:\4course\практика\FlightService\FlightApp\FlightApp.Domain\obj\Debug\net9.0\FlightApp.Domain.pdb
+D:\4course\практика\FlightService\FlightApp\FlightApp.Domain\obj\Debug\net9.0\ref\FlightApp.Domain.dll

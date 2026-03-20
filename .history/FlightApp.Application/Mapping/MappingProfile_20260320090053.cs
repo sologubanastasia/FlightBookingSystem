@@ -1,0 +1,21 @@
+using FlightApp.Domain.Entities;
+using FlightApp.Application.Dto.Flight;
+using FlightApp.Application.Dto.Booking;
+using FlightApp.Application.Dto.Seat;
+using AutoMapper;
+
+namespace FlightApp.Application.Mapper
+{
+    public class MappingProfile : Profile
+    {
+        public MapppingProfile()
+        {
+            CreateMap<Flight, FlightDto>();
+            CreateMap<Seat, SeatDto>();
+            CreateMap<Booking, BookingDto>();
+
+            CreateMap<CreateFlightDto, Flight>();
+            CreateMap<CreateBookingDto, Booking>();
+        }
+    }
+}

@@ -1,0 +1,2 @@
+namespace FlightApp.Domain.Entities
+{}

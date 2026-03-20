@@ -1,0 +1,17 @@
+D:\4course\практика\FlightService\FlightApp\FlightApp.Infrastructure\bin\Debug\net9.0\FlightApp.Infrastructure.deps.json
+D:\4course\практика\FlightService\FlightApp\FlightApp.Infrastructure\bin\Debug\net9.0\FlightApp.Infrastructure.runtimeconfig.json
+D:\4course\практика\FlightService\FlightApp\FlightApp.Infrastructure\bin\Debug\net9.0\FlightApp.Infrastructure.dll
+D:\4course\практика\FlightService\FlightApp\FlightApp.Infrastructure\bin\Debug\net9.0\FlightApp.Infrastructure.pdb
+D:\4course\практика\FlightService\FlightApp\FlightApp.Infrastructure\bin\Debug\net9.0\FlightApp.Domain.dll
+D:\4course\практика\FlightService\FlightApp\FlightApp.Infrastructure\bin\Debug\net9.0\FlightApp.Domain.pdb
+D:\4course\практика\FlightService\FlightApp\FlightApp.Infrastructure\obj\Debug\net9.0\FlightApp.Infrastructure.csproj.AssemblyReference.cache
+D:\4course\практика\FlightService\FlightApp\FlightApp.Infrastructure\obj\Debug\net9.0\FlightApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\4course\практика\FlightService\FlightApp\FlightApp.Infrastructure\obj\Debug\net9.0\FlightApp.Infrastructure.AssemblyInfoInputs.cache
+D:\4course\практика\FlightService\FlightApp\FlightApp.Infrastructure\obj\Debug\net9.0\FlightApp.Infrastructure.AssemblyInfo.cs
+D:\4course\практика\FlightService\FlightApp\FlightApp.Infrastructure\obj\Debug\net9.0\FlightApp.Infrastructure.csproj.CoreCompileInputs.cache
+D:\4course\практика\FlightService\FlightApp\FlightApp.Infrastructure\obj\Debug\net9.0\FlightAp.4740E50A.Up2Date
+D:\4course\практика\FlightService\FlightApp\FlightApp.Infrastructure\obj\Debug\net9.0\FlightApp.Infrastructure.dll
+D:\4course\практика\FlightService\FlightApp\FlightApp.Infrastructure\obj\Debug\net9.0\refint\FlightApp.Infrastructure.dll
+D:\4course\практика\FlightService\FlightApp\FlightApp.Infrastructure\obj\Debug\net9.0\FlightApp.Infrastructure.pdb
+D:\4course\практика\FlightService\FlightApp\FlightApp.Infrastructure\obj\Debug\net9.0\FlightApp.Infrastructure.genruntimeconfig.cache
+D:\4course\практика\FlightService\FlightApp\FlightApp.Infrastructure\obj\Debug\net9.0\ref\FlightApp.Infrastructure.dll

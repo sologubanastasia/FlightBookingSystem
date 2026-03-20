@@ -1,0 +1,52 @@
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddApplication;
+// builder.Services.AddFluentValidationAutoValidation();
+builder.Services.AddInfrastructure(builder.Configuration);
+builder.Services.AddControlers();
+
+builder.Services.AddAuthAuthentication(options =>
+{
+    options.DefaultAutheticationScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallangeSheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidationIssuer = true,
+        ValidationAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSignngKey = true,
+        ValidIssuer = builder.Configuration["Jwt:Issuer"],
+        ValidAudience = builder.Configuration["Jwt:Audience"],
+        IssuerSigningKey = new SymetricSecurityKey(Enconding.UTF.GetBytes(builder.Configuration["Jwt:Key"]!))
+    };
+});
+
+builder.Services.AddSwaggerGen(options =>
+{
+    options.SwaggerDoc("v1", new OpenApiInfo { Title = "InternHub API", Version = "v1" });
+    options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        In = ParameterLocation.Header,
+        Description = "Введіть токен у форматі: Bearer {your_token}",
+        Name = "Authorization",
+        Type = SecuritySchemeType.ApiKey
+    });
+    options.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference { Type = ReferenceType.SecurityScheme, Id = "Bearer" }
+            },
+            Array.Empty<string>()
+        }
+    });
+});
+
+var app = builder.Build();
+
+app.UseHttpsRedirection();
+
+app.Run();

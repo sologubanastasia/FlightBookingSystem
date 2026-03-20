@@ -1,0 +1,1 @@
+namespace FlightApp.Domain.Entit
