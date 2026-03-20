@@ -1,6 +1,6 @@
 # FlightBookingSystem
 ### Опис проєкту
-Це Web API для системи бронювання авіаквитків, розроблене на базі **ASP.NET Core 9** та **MS SQL Server**. Проєкт побудований з використанням багатошарової архітектури (**Clean Architecture**) та підходу **Code First**.
+Це Web API для системи бронювання авіаквитків, розроблене на базі **ASP.NET Core** та **MS SQL Server**. Проєкт побудований з використанням багатошарової архітектури (**Clean Architecture**) та підходу **Code First**.
 ---
 ### Реалізований функціонал (Відповідно до ТЗ)
 **Основні вимоги:**
@@ -26,30 +26,24 @@
 ---
 ### Інструкція із запуску
 #### 1. Налаштування бази даних
-У файлі `appsettings.json` проєкту **FlightApp.WebApi** змініть рядок підключення:
-`"DefaultConnection": "Server=YOUR_SERVER_NAME;Database=FlightDb;Trusted_Connection=True;TrustServerCertificate=True;"`
-
+У файлі `appsettings.json` проєкту **FlightApp.WebApi** змініть рядок підключення
 #### 2. Застосування міграцій
 Виконайте команду в терміналі для створення бази даних:
 `dotnet ef database update --project FlightApp.Infrastructure --startup-project FlightApp.WebApi`
-
 #### 3. Запуск проєкту
 `dotnet run --project FlightApp.WebApi`
-*Система автоматично наповнить базу тестовими даними при першому запуску.*
 ---
-### Основні Ендпоінти (API Endpoints)
-**Auth (Авторизація)**
-* `POST /api/Auth/register` — Реєстрація користувача
-* `POST /api/Auth/login` — Вхід та отримання JWT токена
+### Тестові дані (Ролі)
+Для швидкого тестування через Swagger використовуйте наступні дані (JSON):
 
-**Flights (Рейси)**
-* `GET /api/Flights` — Список усіх рейсів
-* `GET /api/Flights/{id}` — Деталі рейсу та статус місць
-* `POST /api/Flights` — Створення рейсу (Admin)
-* `PUT /api/Flights/{id}` — Редагування рейсу (Admin)
-* `DELETE /api/Flights/{id}` — Видалення рейсу (Admin)
+**Admin (Повні права):**
+```json
+{
+  "email": "admin@test.com",
+  "password": "Admin123!"
+}
 
-**Booking (Бронювання)**
-* `POST /api/Booking` — Забронювати місця
-* `GET /api/Booking/my` — Список моїх бронювань
-* `DELETE /api/Booking/{id}` — Скасувати бронювання
+{
+  "email": "user@test.com",
+  "password": "User123!"
+}
